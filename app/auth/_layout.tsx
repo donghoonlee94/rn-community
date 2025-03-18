@@ -23,6 +23,22 @@ export default function AuthLayout() {
           ),
         }}
       />
+      <Stack.Screen
+        name="login"
+        options={{
+          title: "로그인",
+          headerShown: true,
+          headerBackButtonDisplayMode: "minimal",
+        }}
+      />
+      <Stack.Screen
+        name="signup"
+        options={{
+          title: "회원가입",
+          headerShown: true,
+          headerBackButtonDisplayMode: "minimal",
+        }}
+      />
     </Stack>
   );
 }
